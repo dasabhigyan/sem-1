@@ -21,7 +21,29 @@
 # print(remainder)
 
 
-x = float(input())
-y = float(input())
-rem = x - int(x/y)*y
-print(round(rem, 1))
+# x = float(input())
+# y = float(input())
+# rem = x - int(x/y)*y
+# print(round(rem, 1))
+# #17.09.2026
+# # import module
+# import math
+# print(int(math.sqrt(49)))
+#importing specfic function and constants frrom Module for less memory usage 
+
+
+
+# def Naam(name="Mr",first="Gen",last="Z"):
+#     name = input("Enter title:")
+#     first = input("Enter first name:")
+#     last = input("Enter Last name:")
+#     print('Title:', name)
+#     print('first:', first)
+#     print('Last:', last)
+# Naam()
+
+
+title = input() or "Mr"
+first = input() or "Gen"
+last = input() or "Z"
+print(title,first,last)
