@@ -118,3 +118,18 @@
 # print(0.1 + 0.2 == 0.30000000000000004)
 # print(f"{1/3:.3f}")
 # print(bin(1))
+
+
+# import sys
+# print(sys.float_info.dig) # significant decimal digits of precision
+# print(sys.float_info.max) # largest representable float
+
+# print(f"{0.1:.20f}")
+# print(f"{0.2:.20f}")
+# print(f"{0.3:.20f}")
+# print(f"{0.1 + 0.2:.20f}")
+
+print(0.1 + 0.2 == 0.3) # direct ==
+print(round(0.1 + 0.2, 1) == 0.3) # round first
+import math
+print(math.isclose(0.1 + 0.2, 0.3)) # tolerance-based
